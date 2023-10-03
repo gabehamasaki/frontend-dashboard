@@ -3,7 +3,7 @@ import Avatar from './avatar'
 
 export default function Header() {
   return (
-    <header className='w-full flex justify-between items-center'>
+    <header className='w-full flex justify-between items-center container mx-auto'>
       <Menu />
       <div className='flex gap-4 items-center'>
         <Search />

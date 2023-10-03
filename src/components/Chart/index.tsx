@@ -30,6 +30,7 @@ const data = {
       backgroundColor: "rgb(158, 110, 254)",
       borderRadius: 16,
       maxBarThickness: 64,
+
     },
   ],
 } as ChartData<"bar">
@@ -41,9 +42,11 @@ export default function Chart() {
         backgroundColor: "rgba(255, 255, 255, 0)",
         font: {
           size: 16
-        }
+        },
+        normalized: true
       }}
       data={data}
+      className="h-full"
     />
   )
 }
